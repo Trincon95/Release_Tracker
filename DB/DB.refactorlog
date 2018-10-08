@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="27b1b128-c84a-4a16-8ba7-6a2c1ed76163" ChangeDateTime="10/08/2018 18:52:13">
+    <Property Name="ElementName" Value="[dbo].[Hosted].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Hosted]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HostID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a339c67a-3c37-47ec-ad51-86afe59657a0" ChangeDateTime="10/08/2018 18:53:14">
+    <Property Name="ElementName" Value="[dbo].[Domain].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Domain]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DomainID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04414f24-993a-4e3a-9004-6862a8f49f68" ChangeDateTime="10/08/2018 18:53:54">
+    <Property Name="ElementName" Value="[dbo].[Territory].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Territory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TerritoryID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5d85d266-433a-439e-9173-cfe02eb1a304" ChangeDateTime="10/08/2018 18:55:23">
+    <Property Name="ElementName" Value="[dbo].[Territory_App].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Territory_App]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TerritoryID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="96be3a61-d7d7-42dc-8c73-843a3cfee0e1" ChangeDateTime="10/08/2018 18:55:57">
+    <Property Name="ElementName" Value="[dbo].[Territory_App].[TerritoryID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Territory_App]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TerritoryAppID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cd18cbb9-c914-4e7f-8301-6f0c72140919" ChangeDateTime="10/08/2018 18:56:03">
+    <Property Name="ElementName" Value="[dbo].[Territory_App].[DomainID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Territory_App]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AppID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e0cf9678-dfaf-4525-a02a-06fdad1719b6" ChangeDateTime="10/08/2018 18:56:12">
+    <Property Name="ElementName" Value="[dbo].[Territory_App].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Territory_App]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TerritoryID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7e9021ce-efc3-4ca3-80c6-f2aceed98b84" ChangeDateTime="10/08/2018 18:57:21">
+    <Property Name="ElementName" Value="[dbo].[Contacts].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Contacts]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContactID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc2b93a8-edd6-4a18-abee-b5dcd0dbdf2c" ChangeDateTime="10/08/2018 18:58:56">
+    <Property Name="ElementName" Value="[dbo].[Application].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Application]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AppID" />
+  </Operation>
+</Operations>

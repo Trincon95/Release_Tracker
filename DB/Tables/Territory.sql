@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Territory]
+(
+	[TerritoryID] INT NOT NULL PRIMARY KEY, 
+	[DomainID] INT NOT NULL, 
+	[Name] NVARCHAR(100) NOT NULL, 
+	[Cluster] NVARCHAR(50) NOT NULL
+	FOREIGN KEY (DomainID) REFERENCES Domain(DomainID)
+)

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Domain]
+(
+	[DomainID] INT NOT NULL PRIMARY KEY, 
+    [HostID] INT NOT NULL, 
+    [Name] NVARCHAR(100) NOT NULL
+	FOREIGN KEY (HostID) REFERENCES Hosted(HostID)
+)
