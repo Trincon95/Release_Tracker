@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Hosted]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Name in table [dbo].[Application] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur.
+       The type for column Email in table [dbo].[Contacts] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur.
+       The type for column Type in table [dbo].[Contacts] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Domain] (Foreign Key)
+     Alter
+       [dbo].[Application] (Table)
+       [dbo].[Contacts] (Table)
+     Table rebuild
+       [dbo].[Hosted] (Table)
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Domain] (Foreign Key)
+
+** Supporting actions
+
+The type for column Name in table [dbo].[Application] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur.
+The type for column Email in table [dbo].[Contacts] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur.
+The type for column Type in table [dbo].[Contacts] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur.
+

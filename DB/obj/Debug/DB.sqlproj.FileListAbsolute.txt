@@ -1,0 +1,9 @@
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\bin\Debug\DB.dacpac
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\bin\Debug\DB.dll
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\bin\Debug\DB.pdb
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\Model.xml
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\refactor.xml
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\postdeploy.sql
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\predeploy.sql
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\DB.dll
+C:\Users\trincon002\Source\Repos\Release_Tracker\DB\obj\Debug\DB.pdb
