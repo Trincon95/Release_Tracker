@@ -7,3 +7,5 @@
 	FOREIGN KEY (AppID) REFERENCES Application(AppID)
 	FOREIGN KEY (TerritoryID) REFERENCES Territory(TerritoryID)
 )
+
+
